@@ -1,0 +1,1843 @@
+{
+  "about": "ExifCleaner brand data, version 2.0. Every rule in the brand book as structured data; American English.",
+  "name": "ExifCleaner",
+  "version": "2.0",
+  "date": "29 October 2026",
+  "revisions": [
+    {
+      "version": "2.0",
+      "date": "29 October 2026",
+      "changes": "The identity in full: the broom and its two sparkles on a 100-unit grid, the drawn wordmark, the teal palette, Instrument Sans and Geist Mono, voice, motion, sound, photography and the files to use them."
+    }
+  ],
+  "idea": {
+    "line": "A clean sweep you can check.",
+    "explanation": [
+      "Photos, videos and PDFs carry things nobody meant to share: where a photo was taken, the camera’s serial number, the author’s name. ExifCleaner sweeps it out, and then shows the receipt: every field that was there, and what is left.",
+      "The broom and its two sparkles have been the app’s face since its first version. They are drawn with the care of the tool itself: one flat color per part, exact proportions, nothing decorative that a 16-pixel icon can’t hold."
+    ]
+  },
+  "positioning": "A precise, local tool that removes metadata from your files and shows you exactly what it removed.",
+  "job": "Remove what my files say about me, without surprises, and let me see what changed.",
+  "audience": [
+    {
+      "who": "Sharers",
+      "needs": "Drop a photo before posting or selling. One obvious action, a clean result, and no lost orientation or color."
+    },
+    {
+      "who": "Sources and journalists",
+      "needs": "Need identifying data gone with certainty, and to be told about anything that could not be removed."
+    },
+    {
+      "who": "Photographers",
+      "needs": "Work with RAW, TIFF and print. Color profiles and resolution are preserved, and originals are never harmed."
+    },
+    {
+      "who": "Batch cleaners",
+      "needs": "Clean whole folders at once. One failure never stops the rest."
+    }
+  ],
+  "values": [
+    {
+      "value": "Exact, not alarming",
+      "meaning": "States what was removed. Never frightens anyone into using it."
+    },
+    {
+      "value": "Shows its work",
+      "meaning": "Before and after, field by field. Claims you can verify."
+    },
+    {
+      "value": "Local by design",
+      "meaning": "No network access, no telemetry, no automatic updates."
+    },
+    {
+      "value": "Careful with originals",
+      "meaning": "When in doubt, the source file stays untouched."
+    },
+    {
+      "value": "Quietly crafted",
+      "meaning": "A native-feeling tool with one warm note: the broom."
+    }
+  ],
+  "rules": [
+    "The broom and both sparkles stay together, and are never redrawn.",
+    "Teal is the one confident color; Bristle Yellow lives in the broom.",
+    "Say exactly what was removed. Never frighten."
+  ],
+  "logo": {
+    "wordmark": "ExifCleaner in CamelCase, Instrument Sans Bold at −14/1000 tracking, outlined. It is a drawing: never typed in the font.",
+    "mark": "The broom stands on the baseline at 1.6 × the cap height. The gap to the wordmark is 0.6 × the x-height.",
+    "broom": "The broom on a 100-unit grid: a 10-unit handle with a round top; a head whose straight flanks run into the shoulder with no corner; a band across it; three V notches in the foot. The sparkles sit at 14 and 10 units, left high and right low.",
+    "mono": "In one color the band becomes a gap, so the head still reads as bound bristles. Every part is a plain outline: no masks, no effects.",
+    "icon": "The app icon is the broom on the teal field, with a white handle and white sparkles. At 24 px and below, the small-size logo takes over: a heavier, wider broom with one sparkle.",
+    "iconMore": "macOS gets the platform template, the broom on a rounded square with a transparent margin; Windows and Linux get the same rounded square at full size. Never put the symbol in a circle.",
+    "wordAlone": "The wordmark is not used on its own. Use the lockup or the symbol; where neither fits, write ExifCleaner as plain text.",
+    "clear": "Keep one x-height of clear space on every side of the lockup. Nothing else enters it: no text, no edges, no other logos.",
+    "minNote": "Below 120 px the sparkles crowd the handle; use the symbol instead. Print sizes assume offset or good digital printing; check embroidery and engraving with the supplier.",
+    "minimumSizes": [
+      {
+        "version": "Lockup",
+        "screen": "120 px wide",
+        "print": "30 mm wide"
+      },
+      {
+        "version": "Symbol",
+        "screen": "32 px",
+        "print": "9 mm"
+      },
+      {
+        "version": "Small-size logo",
+        "screen": "16 px",
+        "print": "5 mm"
+      }
+    ],
+    "misuse": [
+      "Don’t stretch or squash it.",
+      "Don’t recolor the broom.",
+      "Don’t drop or move a sparkle.",
+      "Don’t tilt the broom.",
+      "Don’t add shadows or glows.",
+      "Don’t put it in a circle badge.",
+      "Don’t lock a tagline to it.",
+      "Don’t set it on mid teal."
+    ],
+    "geometry": {
+      "wordmark": "Instrument Sans 700, width 100, tracking −14/1000, outlined",
+      "markHeight": "1.6 × cap height (1152u)",
+      "gap": "306u = 0.6 × x-height (510u)",
+      "handle": "10 units wide on the 100-unit grid = 129.44u in the lockup = 0.18 × cap height",
+      "lockupAspect": 5.77
+    }
+  },
+  "color": {
+    "light": [
+      {
+        "name": "Clean White",
+        "hex": "#FFFFFF",
+        "role": "The ground: the page after cleaning.",
+        "sharePercent": 60
+      },
+      {
+        "name": "Deep Teal",
+        "hex": "#0A2E2B",
+        "role": "The wordmark and all text. A teal-black, never gray or pure black.",
+        "sharePercent": 20
+      },
+      {
+        "name": "Rinse",
+        "hex": "#EEF6F5",
+        "role": "Alternate sections, cards and the app’s table header.",
+        "sharePercent": 12
+      },
+      {
+        "name": "ExifCleaner Teal",
+        "hex": "#0D9488",
+        "role": "The icon field, the symbol, large accents: the color people know ExifCleaner by.",
+        "sharePercent": 6
+      },
+      {
+        "name": "Steady Teal",
+        "hex": "#0F766E",
+        "role": "Links and buttons with white text: teal that holds 4.5:1.",
+        "sharePercent": 2
+      }
+    ],
+    "dark": [
+      {
+        "name": "Deep Teal",
+        "hex": "#0A2E2B",
+        "role": "The ground in dark mode.",
+        "sharePercent": 62
+      },
+      {
+        "name": "Clean White",
+        "hex": "#FFFFFF",
+        "role": "The wordmark and all text.",
+        "sharePercent": 20
+      },
+      {
+        "name": "Tide",
+        "hex": "#12403C",
+        "role": "Raised surfaces and cards.",
+        "sharePercent": 10
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#5EEAD4",
+        "role": "Teal for dark grounds: the symbol, links and buttons.",
+        "sharePercent": 8
+      }
+    ],
+    "mark": [
+      {
+        "name": "Bristle Yellow",
+        "hex": "#F8D057",
+        "role": "The broom head. Also stickers and merch; never text on light grounds."
+      },
+      {
+        "name": "Band Orange",
+        "hex": "#E97043",
+        "role": "The binding on the broom head, and nowhere else."
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Pewter",
+        "hex": "#4A625F",
+        "role": "Secondary text on Clean White and Rinse."
+      },
+      {
+        "name": "Fog",
+        "hex": "#A9C9C4",
+        "role": "Secondary text on Deep Teal and Tide."
+      }
+    ],
+    "pairs": [
+      {
+        "text": "Deep Teal",
+        "textHex": "#0A2E2B",
+        "ground": "Clean White",
+        "groundHex": "#FFFFFF",
+        "contrast": 14.6,
+        "use": "Any text"
+      },
+      {
+        "text": "Pewter",
+        "textHex": "#4A625F",
+        "ground": "Clean White",
+        "groundHex": "#FFFFFF",
+        "contrast": 6.56,
+        "use": "Any text"
+      },
+      {
+        "text": "Steady Teal",
+        "textHex": "#0F766E",
+        "ground": "Clean White",
+        "groundHex": "#FFFFFF",
+        "contrast": 5.47,
+        "use": "Any text"
+      },
+      {
+        "text": "Clean White",
+        "textHex": "#FFFFFF",
+        "ground": "Steady Teal",
+        "groundHex": "#0F766E",
+        "contrast": 5.47,
+        "use": "Any text"
+      },
+      {
+        "text": "Deep Teal",
+        "textHex": "#0A2E2B",
+        "ground": "Rinse",
+        "groundHex": "#EEF6F5",
+        "contrast": 13.3,
+        "use": "Any text"
+      },
+      {
+        "text": "Clean White",
+        "textHex": "#FFFFFF",
+        "ground": "ExifCleaner Teal",
+        "groundHex": "#0D9488",
+        "contrast": 3.74,
+        "use": "Large text (24 px+, or 19 px bold) and graphics only"
+      },
+      {
+        "text": "Clean White",
+        "textHex": "#FFFFFF",
+        "ground": "Deep Teal",
+        "groundHex": "#0A2E2B",
+        "contrast": 14.6,
+        "use": "Any text"
+      },
+      {
+        "text": "Fog",
+        "textHex": "#A9C9C4",
+        "ground": "Deep Teal",
+        "groundHex": "#0A2E2B",
+        "contrast": 8.23,
+        "use": "Any text"
+      },
+      {
+        "text": "Seafoam",
+        "textHex": "#5EEAD4",
+        "ground": "Deep Teal",
+        "groundHex": "#0A2E2B",
+        "contrast": 9.87,
+        "use": "Any text"
+      },
+      {
+        "text": "Deep Teal",
+        "textHex": "#0A2E2B",
+        "ground": "Seafoam",
+        "groundHex": "#5EEAD4",
+        "contrast": 9.87,
+        "use": "Any text"
+      },
+      {
+        "text": "Bristle Yellow",
+        "textHex": "#F8D057",
+        "ground": "Deep Teal",
+        "groundHex": "#0A2E2B",
+        "contrast": 9.84,
+        "use": "Any text"
+      },
+      {
+        "text": "Deep Teal",
+        "textHex": "#0A2E2B",
+        "ground": "ExifCleaner Teal",
+        "groundHex": "#0D9488",
+        "contrast": 3.9,
+        "use": "Never for text: see the note",
+        "note": "Passes for large text, but a dark teal on a mid teal reads muddy. Use white on teal, or Deep Teal on Seafoam."
+      }
+    ],
+    "print": "Not specified: proof against a physical swatch; no CMYK or Pantone values are given."
+  },
+  "type": {
+    "sans": {
+      "family": "Instrument Sans",
+      "weights": "700 for headlines (−2% tracking), 600 for titles; 400 text, 500 lead, 600 emphasis",
+      "css": "'Instrument Sans', -apple-system, 'Segoe UI', Roboto, sans-serif"
+    },
+    "mono": {
+      "family": "Geist Mono",
+      "weights": "400 for metadata, file names and counts; 500 for emphasis",
+      "css": "'Geist Mono', ui-monospace, 'SF Mono', Consolas, monospace"
+    },
+    "app": "Inside the app, the interface keeps the system font, so ExifCleaner feels native on macOS, Windows and Linux. File names and counts use Geist Mono or the system monospace.",
+    "license": "Both are under the SIL Open Font License 1.1: free for the app, the web, print and merch. The fonts are in assets/fonts.",
+    "why": "Instrument Sans has the tight, slightly narrow precision of the best Mac utilities, without the everywhere-ness of the default interface faces. Geist Mono sets metadata the way it really exists, as fields and values, so the product’s subject has its own voice.",
+    "hierarchy": [
+      {
+        "role": "Display",
+        "face": "sans",
+        "weight": 700,
+        "sizePx": 72,
+        "lineHeight": 1,
+        "tracking": "−2.5%",
+        "sample": "Metadata, removed.",
+        "use": "Website hero, covers, launch posts"
+      },
+      {
+        "role": "Headline",
+        "face": "sans",
+        "weight": 700,
+        "sizePx": 44,
+        "lineHeight": 1.08,
+        "tracking": "−2%",
+        "sample": "See exactly what was removed.",
+        "use": "Section titles"
+      },
+      {
+        "role": "Title",
+        "face": "sans",
+        "weight": 600,
+        "sizePx": 24,
+        "lineHeight": 1.25,
+        "tracking": "−1%",
+        "sample": "Privacy controls",
+        "use": "Feature names, card titles"
+      },
+      {
+        "role": "Lead",
+        "face": "sans",
+        "weight": 500,
+        "sizePx": 22,
+        "lineHeight": 1.4,
+        "tracking": "0",
+        "sample": "Fast, private, and free. Images, videos and PDFs.",
+        "use": "The first line under a headline"
+      },
+      {
+        "role": "Text",
+        "face": "sans",
+        "weight": 400,
+        "sizePx": 17,
+        "lineHeight": 1.6,
+        "tracking": "0",
+        "sample": "Save as copy writes a cleaned copy next to the original. The original is not changed.",
+        "use": "Paragraphs, help, release notes"
+      },
+      {
+        "role": "Emphasis",
+        "face": "sans",
+        "weight": 600,
+        "sizePx": 17,
+        "lineHeight": 1.6,
+        "tracking": "0",
+        "sample": "Nothing leaves your computer.",
+        "use": "The phrase that matters most"
+      },
+      {
+        "role": "Label",
+        "face": "sans",
+        "weight": 600,
+        "sizePx": 13,
+        "lineHeight": 1.2,
+        "tracking": "+6%, capitals",
+        "sample": "FIELDS REMOVED",
+        "use": "Table headers, section labels"
+      },
+      {
+        "role": "Data",
+        "face": "mono",
+        "weight": 400,
+        "sizePx": 15,
+        "lineHeight": 1.5,
+        "tracking": "0",
+        "sample": "listing_chair.heic −24 fields",
+        "use": "Metadata, file names, counts"
+      },
+      {
+        "role": "Caption",
+        "face": "sans",
+        "weight": 400,
+        "sizePx": 14,
+        "lineHeight": 1.45,
+        "tracking": "0",
+        "sample": "Shown on macOS 15 in light mode, with sample files.",
+        "use": "Figure notes, in Pewter or Fog"
+      }
+    ]
+  },
+  "retired": [
+    {
+      "what": "The circle-badge icon with the long shadow.",
+      "instead": "Replace every copy, including avatars, with the icon files above."
+    },
+    {
+      "what": "The typed wordmark.",
+      "instead": "The name set in a font as a logo. Use the lockup files; in running text the name stays plain text."
+    },
+    {
+      "what": "Text colors #0F172A and #64748B on the website.",
+      "instead": "Use Deep Teal and Pewter."
+    },
+    {
+      "what": "ExifCleaner Teal #0D9488 for buttons and link text.",
+      "instead": "Use Steady Teal #0F766E; ExifCleaner Teal stays on the icon and large accents."
+    }
+  ],
+  "layout": {
+    "scope": "For anything we lay out ourselves: the website, the README, release posts, social images and slides. The app follows its platform (see In the product).",
+    "principles": [
+      {
+        "principle": "One edge.",
+        "meaning": "Everything aligns to one left edge. Only a headline that stands alone, on a slide or the website’s opening, may be centered."
+      },
+      {
+        "principle": "Space is the signal.",
+        "meaning": "Generous space between parts is what makes a careful tool look careful. Crowding reads as alarm."
+      },
+      {
+        "principle": "The picture is the product.",
+        "meaning": "A real screenshot or a real photograph does the explaining; text sits beside it, never on top of it."
+      }
+    ],
+    "examples": [
+      {
+        "channel": "Release post",
+        "good": "One edge: the version as the headline, the screenshot under it, the changes as a short list.",
+        "bad": "A centered title in two colors, a NEW badge on the screenshot, and words set on top of it."
+      },
+      {
+        "channel": "Social image",
+        "good": "The headline and the removed line on one edge, the screenshot beside them, the logo small.",
+        "bad": "A huge logo, the headline over the screenshot, a red badge, and no margin."
+      }
+    ],
+    "websiteNotes": {
+      "status": "notes, not part of the identity",
+      "note": "Notes only: the current website’s grid and spacing, not part of the identity. A website build guide, made when the site is rebuilt, sets its own grid within the layout principles.",
+      "rules": [
+        {
+          "what": "Grid",
+          "value": "12 columns, 24 px gutters, 1120 px maximum width; 16 px side margins on phones."
+        },
+        {
+          "what": "Spacing",
+          "value": "Steps of 4 px. Four do most of the work: tight 8, default 16, section 64, hero 128."
+        }
+      ],
+      "spacing": [
+        {
+          "step": "tight",
+          "px": 8,
+          "use": "Icon to label, inline gaps"
+        },
+        {
+          "step": "default",
+          "px": 16,
+          "use": "Between related elements"
+        },
+        {
+          "step": "section",
+          "px": 64,
+          "use": "Between sections on phones; inside cards on desktop"
+        },
+        {
+          "step": "hero",
+          "px": 128,
+          "use": "Around the hero on desktop"
+        }
+      ]
+    },
+    "notSpecified": "Not set by this book: a website grid or spacing scale (a website build guide is its own document), component states and button or card specifications (the app follows its platform), and a print grid (there is no print collateral)."
+  },
+  "voice": {
+    "summary": "A precise tool that tells you exactly what it did.",
+    "toneDial": [
+      {
+        "channel": "Website hero",
+        "spirited0to4": 3,
+        "example": "Metadata, removed."
+      },
+      {
+        "channel": "Launch and release posts",
+        "spirited0to4": 3,
+        "example": "HEIC and AVIF photos, now cleaned by ExifCleaner’s own engine."
+      },
+      {
+        "channel": "README and docs",
+        "spirited0to4": 2,
+        "example": "Drag files or folders onto the window. That’s it."
+      },
+      {
+        "channel": "Release notes",
+        "spirited0to4": 2,
+        "example": "Save as copy now keeps the original’s timestamps."
+      },
+      {
+        "channel": "In the app",
+        "spirited0to4": 1,
+        "example": "12 of 12 cleaned, 162 fields removed"
+      },
+      {
+        "channel": "Settings and help",
+        "spirited0to4": 1,
+        "example": "Save as copy writes a cleaned copy next to the original. The original is not changed."
+      },
+      {
+        "channel": "Errors and OS warnings",
+        "spirited0to4": 0,
+        "example": "Couldn’t clean IMG_2041.HEIC. The original is unchanged."
+      }
+    ],
+    "toneNote": "The dial never reaches fully spirited: ExifCleaner is a precise tool, not a mascot. The closer someone is to a problem, the plainer it gets.",
+    "thisNotThat": [
+      {
+        "say": "Metadata, removed.",
+        "notThis": "Protect yourself from hackers and stalkers!"
+      },
+      {
+        "say": "No network access. No telemetry. Verify it yourself.",
+        "notThis": "100% secure, guaranteed."
+      },
+      {
+        "say": "See exactly what was removed.",
+        "notThis": "Advanced privacy scrubbing technology."
+      },
+      {
+        "say": "Couldn’t clean 1 file. The original is unchanged.",
+        "notThis": "Error 0x03: operation failed."
+      },
+      {
+        "say": "PDF: the old metadata stays recoverable inside the file. Details",
+        "notThis": "PDF cleaned."
+      },
+      {
+        "say": "Your OS will warn you the first time: ExifCleaner isn’t code-signed.",
+        "notThis": "Ignore any security warnings."
+      },
+      {
+        "say": "Open source. Read the code.",
+        "notThis": "Please star us on GitHub!"
+      }
+    ],
+    "inclusive": [
+      "Don’t guess why someone wants privacy. Sellers, parents, sources and photographers all use it; never “if you have something to hide”.",
+      "Never use fear to sell. State what is removed, not what could happen to you.",
+      "Write for 25 languages. Short sentences, no idioms or puns in the app, and counts as labels (“Removed: 12”) so translators can handle plurals.",
+      "Name buttons as the OS shows them, in bold: “click Open Anyway”.",
+      "Use “they” for a person you don’t know.",
+      "Leave out “just”, “simply” and “easy”. If it were simple, nobody would be reading the help."
+    ],
+    "name": {
+      "rule": "One word, capital E and capital C. In code, commands and file names: exifcleaner.",
+      "never": [
+        {
+          "form": "Exif Cleaner",
+          "why": ""
+        },
+        {
+          "form": "EXIFCleaner",
+          "why": ""
+        },
+        {
+          "form": "Exifcleaner",
+          "why": "in running text"
+        },
+        {
+          "form": "EC",
+          "why": "never abbreviated"
+        },
+        {
+          "form": "exifclean",
+          "why": "never a verb"
+        }
+      ],
+      "more": "Possessive: ExifCleaner’s. The verb is “clean”: “ExifCleaner cleaned 12 files.”"
+    },
+    "words": [
+      {
+        "say": "metadata",
+        "insteadOf": "EXIF data (unless it is EXIF)",
+        "why": "Videos and PDFs carry other kinds too."
+      },
+      {
+        "say": "remove, clean",
+        "insteadOf": "scrub, wipe, nuke, destroy",
+        "why": "Exact, not dramatic."
+      },
+      {
+        "say": "fields",
+        "insteadOf": "attributes, info",
+        "why": "To people. “Tags” only in technical detail."
+      },
+      {
+        "say": "stays on your computer",
+        "insteadOf": "secure, anonymous, untraceable",
+        "why": "Say what is true and checkable."
+      },
+      {
+        "say": "no network access",
+        "insteadOf": "offline mode",
+        "why": "There is no online mode."
+      },
+      {
+        "say": "original",
+        "insteadOf": "source file, input",
+        "why": "The word people use."
+      },
+      {
+        "say": "Save as copy",
+        "insteadOf": "duplicate, backup",
+        "why": "The setting’s own name."
+      },
+      {
+        "say": "open source",
+        "insteadOf": "free software project",
+        "why": "Plain and accurate; “free” is fine for the price."
+      }
+    ],
+    "wordsNote": "Platform names (macOS, Windows, Linux) appear as plain text, never as logos or in their makers’ colors. Write “FREE” never; “free” is fine."
+  },
+  "motion": {
+    "load": 300,
+    "contact": 560,
+    "spark1": 560,
+    "spark2": 680,
+    "rest": 900,
+    "total": 1000,
+    "tilt": 16,
+    "windup": 22,
+    "overshoot": -4,
+    "ease": {
+      "anticipation": [
+        0.45,
+        0,
+        0.55,
+        1
+      ],
+      "release": [
+        0.5,
+        0,
+        0.2,
+        1
+      ],
+      "settle": [
+        0.45,
+        0,
+        0.55,
+        1
+      ],
+      "enter": [
+        0,
+        0,
+        0.3,
+        1
+      ],
+      "pop": [
+        0.16,
+        1,
+        0.3,
+        1
+      ]
+    },
+    "tracks": {
+      "broomRot": [
+        [
+          0,
+          16
+        ],
+        [
+          120,
+          16
+        ],
+        [
+          300,
+          22,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ],
+        [
+          560,
+          -4,
+          [
+            0.5,
+            0,
+            0.2,
+            1
+          ]
+        ],
+        [
+          660,
+          1.5,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ],
+        [
+          760,
+          0,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ]
+      ],
+      "broomX": [
+        [
+          0,
+          0
+        ],
+        [
+          300,
+          0
+        ],
+        [
+          430,
+          -1.2,
+          [
+            0.5,
+            0,
+            0.2,
+            1
+          ]
+        ],
+        [
+          560,
+          0,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ]
+      ],
+      "broomOpacity": [
+        [
+          0,
+          0
+        ],
+        [
+          160,
+          1,
+          [
+            0,
+            0,
+            0.3,
+            1
+          ]
+        ]
+      ],
+      "headRot": [
+        [
+          0,
+          0
+        ],
+        [
+          120,
+          0
+        ],
+        [
+          300,
+          -2,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ],
+        [
+          420,
+          5,
+          [
+            0.5,
+            0,
+            0.2,
+            1
+          ]
+        ],
+        [
+          560,
+          -3,
+          [
+            0.5,
+            0,
+            0.2,
+            1
+          ]
+        ],
+        [
+          660,
+          1,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ],
+        [
+          760,
+          0,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ]
+      ],
+      "headSX": [
+        [
+          0,
+          1
+        ],
+        [
+          300,
+          1
+        ],
+        [
+          420,
+          0.99,
+          [
+            0.5,
+            0,
+            0.2,
+            1
+          ]
+        ],
+        [
+          560,
+          1.015,
+          [
+            0.5,
+            0,
+            0.2,
+            1
+          ]
+        ],
+        [
+          660,
+          1,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ]
+      ],
+      "headSY": [
+        [
+          0,
+          1
+        ],
+        [
+          120,
+          1
+        ],
+        [
+          300,
+          0.985,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ],
+        [
+          420,
+          1.03,
+          [
+            0.5,
+            0,
+            0.2,
+            1
+          ]
+        ],
+        [
+          560,
+          0.97,
+          [
+            0.5,
+            0,
+            0.2,
+            1
+          ]
+        ],
+        [
+          660,
+          1,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ]
+      ],
+      "tipsSkew": [
+        [
+          0,
+          0
+        ],
+        [
+          120,
+          0
+        ],
+        [
+          300,
+          2,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ],
+        [
+          430,
+          -6,
+          [
+            0.5,
+            0,
+            0.2,
+            1
+          ]
+        ],
+        [
+          560,
+          4,
+          [
+            0.5,
+            0,
+            0.2,
+            1
+          ]
+        ],
+        [
+          640,
+          -1.5,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ],
+        [
+          740,
+          0,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ]
+      ],
+      "s1Scale": [
+        [
+          0,
+          0
+        ],
+        [
+          560,
+          0
+        ],
+        [
+          700,
+          1.1,
+          [
+            0.16,
+            1,
+            0.3,
+            1
+          ]
+        ],
+        [
+          780,
+          1,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ]
+      ],
+      "s1Rot": [
+        [
+          0,
+          -12
+        ],
+        [
+          560,
+          -12
+        ],
+        [
+          780,
+          0,
+          [
+            0,
+            0,
+            0.3,
+            1
+          ]
+        ]
+      ],
+      "s1Opacity": [
+        [
+          0,
+          0
+        ],
+        [
+          560,
+          0
+        ],
+        [
+          640,
+          1,
+          [
+            0,
+            0,
+            0.3,
+            1
+          ]
+        ]
+      ],
+      "s2Scale": [
+        [
+          0,
+          0
+        ],
+        [
+          680,
+          0
+        ],
+        [
+          820,
+          1.1,
+          [
+            0.16,
+            1,
+            0.3,
+            1
+          ]
+        ],
+        [
+          900,
+          1,
+          [
+            0.45,
+            0,
+            0.55,
+            1
+          ]
+        ]
+      ],
+      "s2Rot": [
+        [
+          0,
+          10
+        ],
+        [
+          680,
+          10
+        ],
+        [
+          900,
+          0,
+          [
+            0,
+            0,
+            0.3,
+            1
+          ]
+        ]
+      ],
+      "s2Opacity": [
+        [
+          0,
+          0
+        ],
+        [
+          680,
+          0
+        ],
+        [
+          760,
+          1,
+          [
+            0,
+            0,
+            0.3,
+            1
+          ]
+        ]
+      ],
+      "wordOpacity": [
+        [
+          0,
+          0
+        ],
+        [
+          320,
+          1,
+          [
+            0,
+            0,
+            0.3,
+            1
+          ]
+        ]
+      ],
+      "wordY": [
+        [
+          0,
+          6
+        ],
+        [
+          320,
+          0,
+          [
+            0,
+            0,
+            0.3,
+            1
+          ]
+        ]
+      ]
+    },
+    "trackFormat": "[ms, value, cubic-bezier easing into this key]; broom rotates about the handle top, head about the junction (relative), tips shear about the band; broomX in % of the mark width, wordY in % of the cap height",
+    "keyframes": [
+      {
+        "ms": 0,
+        "picture": "The word settles in and the broom appears, tilted",
+        "sound": "a soft tick"
+      },
+      {
+        "ms": 120,
+        "picture": "Anticipation: the broom winds up, away from the sweep, and the bristles catch",
+        "sound": "silence, so the swish has somewhere to start"
+      },
+      {
+        "ms": 300,
+        "picture": "The sweep: the handle swings through, the head lags it and the bristles drag",
+        "sound": "the swish swells, loudest at mid-sweep"
+      },
+      {
+        "ms": 560,
+        "picture": "Contact: the broom passes upright, squashes a touch and the left sparkle pops",
+        "sound": "the swish stops and the first glint rings"
+      },
+      {
+        "ms": 680,
+        "picture": "Settle: one small rebound, the bristles flick back, the right sparkle pops",
+        "sound": "the second glint"
+      },
+      {
+        "ms": 900,
+        "picture": "Rest: the logo is exactly the static logo",
+        "sound": "the glints ring out"
+      }
+    ],
+    "craft": [
+      {
+        "principle": "Anticipation.",
+        "how": "A small wind-up away from the sweep, so the stroke has somewhere to come from."
+      },
+      {
+        "principle": "Overlap.",
+        "how": "The head trails the handle and the bristles trail the head, by tens of milliseconds: delay, not size, is what makes it feel alive."
+      },
+      {
+        "principle": "Squash and settle.",
+        "how": "At contact the head squashes 3% and the broom passes upright by 4°, rebounds once, and stops."
+      },
+      {
+        "principle": "One focus at a time.",
+        "how": "The word is readable before the broom moves, and holds still."
+      }
+    ],
+    "movements": [
+      {
+        "name": "Sweep",
+        "description": "Once per launch video or release post: the broom winds up, sweeps through, lands with a small rebound, and the two sparkles pop in turn. It is the only drawn motion in the brand."
+      },
+      {
+        "name": "Settle",
+        "description": "Results fade up a few pixels and stop. Rows never slide in from the side, and there is no stagger choreography."
+      },
+      {
+        "name": "Reveal",
+        "description": "Expanding a file’s before-and-after list opens in about 200 ms with an ordinary ease-out. Nothing bounces."
+      }
+    ],
+    "never": "The broom never spins, bounces more than once or sweeps twice; the wordmark never moves except to fade in; sparkles never fly, twinkle on a loop or scatter as confetti. Progress is shown as counts, never as a cleaning animation. Reduced motion: the logo fades in without moving, and the sound still plays if it is on.",
+    "video": [
+      "assets/motion/exifcleaner-logo-animation.mp4",
+      "assets/motion/exifcleaner-logo-animation.webm"
+    ]
+  },
+  "sound": {
+    "sounds": {
+      "sweep": {
+        "description": "Sweep: a soft tick as the word appears, one bristle swish that swells with the broom and stops where it lands, then two glints, a fourth apart, as the sparkles pop.",
+        "file": "assets/sound/exifcleaner-sweep.wav",
+        "lufs": -20,
+        "peakDbfs": -6.9,
+        "seconds": 1.58,
+        "listening": {
+          "file": "assets/sound/listening/exifcleaner-sweep.mp3",
+          "lufs": -24,
+          "truePeak": -11
+        }
+      },
+      "done": {
+        "description": "Done: a short swish and the same two glints, when a batch finishes.",
+        "file": "assets/sound/exifcleaner-done.wav",
+        "lufs": -20,
+        "peakDbfs": -8,
+        "seconds": 1.29,
+        "listening": {
+          "file": "assets/sound/listening/exifcleaner-done.mp3",
+          "lufs": -24,
+          "truePeak": -12.1
+        }
+      },
+      "drop": {
+        "description": "Drop: one soft tick when files are accepted.",
+        "file": "assets/sound/exifcleaner-drop.wav",
+        "lufs": -34.5,
+        "peakDbfs": -7.6,
+        "seconds": 0.47,
+        "listening": {
+          "file": "assets/sound/listening/exifcleaner-drop.mp3",
+          "lufs": -38.5,
+          "truePeak": -11.3
+        }
+      }
+    },
+    "rules": [
+      {
+        "when": "In the app:",
+        "rule": "on by default, with one switch to turn it off in Settings. Only Done and Drop play, from the raw WAVs at about 60% volume, and they follow the system’s volume and mute."
+      },
+      {
+        "when": "Done",
+        "rule": "plays when a batch finishes, so someone who dropped a thousand files and went to do something else hears that everything is clean."
+      },
+      {
+        "when": "Drop",
+        "rule": "plays once when files are accepted, never per file."
+      },
+      {
+        "when": "Video and launch posts:",
+        "rule": "Sweep plays with the logo animation."
+      },
+      {
+        "when": "Never",
+        "rule": "for errors: an error is shown in the list, not sounded."
+      }
+    ],
+    "character": "Bristles and glass. One soft swish of a broom across a floor, warm rather than hissy, loudest where the broom moves fastest and gone the moment it lands; then the two glints, B and the E above it, rising like a small yes and ringing clearly above the swish. Short and quiet, so it never startles anyone working.",
+    "listeningMaster": {
+      "chain": [
+        {
+          "what": "low-mid lift",
+          "ffmpeg": "equalizer=f=400:t=o:w=1.2:g=1.5"
+        },
+        {
+          "what": "presence dip",
+          "ffmpeg": "equalizer=f=3400:t=o:w=0.8:g=-2"
+        },
+        {
+          "what": "high shelf",
+          "ffmpeg": "highshelf=f=6000:t=q:w=0.7:g=-3"
+        },
+        {
+          "what": "nothing a laptop cannot carry",
+          "ffmpeg": "highpass=f=120:p=2"
+        }
+      ],
+      "truePeakCeiling": -1,
+      "mp3": "320k"
+    },
+    "sync": "Sound and picture share one timeline. Each sound sits on a pose: the swish on the sweep, its stop and the first glint on contact, the second glint on the second sparkle. The sound is scheduled first and the animation starts the moment it is heard, so speaker and Bluetooth delay never pull them apart; a hit may land a touch late, never early.",
+    "syncSource": "Audio–video sync tolerances: Recommendation ITU-R BT.1359-1 (1998), detectability about +45 ms (sound early) to −125 ms (sound late)."
+  },
+  "messaging": {
+    "tagline": "“Metadata, removed.” is the brand’s headline, used on the website and in launch posts. It is never locked to the logo.",
+    "pitch": "ExifCleaner removes hidden metadata from your photos, videos and PDFs with a drag and drop, on your own computer, and shows you exactly what was removed.",
+    "pillars": [
+      [
+        "See what was removed",
+        "Expand any file for a before-and-after list of every field."
+      ],
+      [
+        "Nothing leaves your computer",
+        "No network access, no telemetry, no automatic updates. The code is open to check."
+      ],
+      [
+        "Your originals are safe",
+        "Save as copy, preserved orientation and timestamps, and the source kept whenever a result is uncertain."
+      ]
+    ],
+    "boilerplate": [
+      [
+        "Short (about 15 words)",
+        "ExifCleaner is a free, open-source desktop app that removes metadata from photos, videos and PDFs."
+      ],
+      [
+        "Medium (about 40 words)",
+        "ExifCleaner is a free, open-source desktop app for macOS, Windows and Linux that removes hidden metadata, such as location, camera serial numbers and author names, from photos, videos and PDFs. Drag in files or folders; it shows exactly what was removed."
+      ],
+      [
+        "Long (about 80 words)",
+        "ExifCleaner removes hidden metadata from photos, videos and PDFs: the location a photo was taken, the camera’s serial number, author names and edit history. Drag in files or whole folders and it cleans them in a batch, on your own computer, with no network access and no telemetry. Expand any file to see a before-and-after list of every field. Options preserve orientation and timestamps or save a cleaned copy beside the original. It is free and open source (MIT), in 25 languages, on macOS, Windows and Linux."
+      ]
+    ]
+  },
+  "imagery": {
+    "screenshots": {
+      "head": "The app is the picture. Show it as it is.",
+      "do": [
+        "Real screenshots, made by script so every release can regenerate them; light and dark versions of each.",
+        "In minimal window chrome with the traffic lights, at 2× resolution, never upscaled.",
+        "Sample files with invented names and invented values. Never anyone’s real location or serial number.",
+        "Across platforms, macOS in front and Windows and Linux beside it, so the reader sees all three at once."
+      ],
+      "dont": [
+        "No mock-ups of features that don’t exist.",
+        "No tilted 3D devices, reflections or floating phones.",
+        "No cropped or zoomed UI that hides what the app does."
+      ]
+    },
+    "marketing": {
+      "head": "Ordinary moments of sharing, in daylight.",
+      "where": "Photographs are rare, and only for articles, press, talks and the launch post; the product screenshot does most of the work. These are on-brand photographs that set the scene, not examples of files to clean.",
+      "photo": [
+        "Daylight and real surroundings. Hands and objects rather than faces.",
+        "Calm, uncluttered frames with room for a headline beside them.",
+        "Every kind of person and place, without pointing at it."
+      ],
+      "photoDont": [
+        "Hooded hackers, glowing code, binary rain or surveillance eyes.",
+        "Padlocks, shields and fingerprints as decoration.",
+        "Fear: stalkers, maps with red pins, “exposed” headlines.",
+        "Staged stock smiles at the camera."
+      ],
+      "illustration": [
+        "No illustration style of its own: the broom is the brand’s only drawing.",
+        "How-it-works diagrams: flat shapes in Deep Teal and Rinse, with teal on the one thing that matters.",
+        "Icons: the platform’s own system icons (SF Symbols, Fluent, Material), never custom cartoons.",
+        "Metadata itself is the decoration: the removed line (Graphic elements)."
+      ],
+      "illustrationDont": [
+        "A second, cartoon broom or a broom character.",
+        "Isometric servers, data streams or abstract “privacy” blobs.",
+        "Sparkles scattered as decoration: today they read as “AI”."
+      ],
+      "frames": [
+        [
+          "Selling something online",
+          "Daylight indoors",
+          "A phone held up to photograph the thing being sold or the room; hand only, no face"
+        ],
+        [
+          "Prints and albums",
+          "Soft window light",
+          "Photographs on paper, close, with their handwriting; no recognizable people"
+        ],
+        [
+          "Where files get cleaned",
+          "Daylight from a window",
+          "An ordinary table or desk with a laptop; no logos, no people"
+        ]
+      ],
+      "sourcing": "The examples here are free-licensed stock chosen to match these briefs. Commissioned or the client’s own photographs replace them over time; every replacement follows the same briefs and the same treatment."
+    },
+    "examples": [
+      {
+        "id": "selling",
+        "role": "use",
+        "source": "unsplash",
+        "retrieved": "2026-10-30",
+        "originalSha256": "1b1b076566e6d2d4ea1d53c23a0344be17b2417f07c4944bab30e596a3dea746",
+        "author": "Michael Soledad",
+        "page": "https://unsplash.com/photos/VeEwaZrKBB0",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "published": "2019-03-10",
+        "brief": 0,
+        "alt": "A hand holds up a phone to photograph a desk and chair in a quiet room.",
+        "caption": "The photo is about to be taken, and its location with it.",
+        "file": "assets/imagery/exifcleaner-example-selling.webp"
+      },
+      {
+        "id": "album",
+        "role": "use",
+        "source": "unsplash",
+        "retrieved": "2026-10-30",
+        "originalSha256": "3a09ab90256b282b7b80aeccaea2216fd6e017ca5a6bcadbe6ac5b8f23d1bc55",
+        "author": "Jutta Elisabeth",
+        "page": "https://unsplash.com/photos/r8TBj0sEhIE",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "published": "2025-12-22",
+        "brief": 1,
+        "alt": "An open album of small black-and-white photographs with handwritten captions.",
+        "caption": "The careful, handled side of photography.",
+        "file": "assets/imagery/exifcleaner-example-album.webp"
+      },
+      {
+        "id": "desk",
+        "role": "use",
+        "source": "unsplash",
+        "retrieved": "2026-10-30",
+        "originalSha256": "12561873dc68680bc73da4c59f17db31db0da895e95b3de0244e20ef0a6d171d",
+        "author": "Sunguk Kim",
+        "page": "https://unsplash.com/photos/WTKvaChRvBg",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "published": "2023-06-29",
+        "brief": 2,
+        "alt": "A small table by a tall window, with a closed laptop and a glass of water.",
+        "caption": "An ordinary table in daylight.",
+        "file": "assets/imagery/exifcleaner-example-desk.webp"
+      },
+      {
+        "id": "hacker",
+        "role": "avoid",
+        "source": "drawn",
+        "alt": "Drawing of a hooded figure at a screen of glowing green code.",
+        "caption": "The hooded hacker and glowing code: fear, and a cliché."
+      },
+      {
+        "id": "padlock",
+        "role": "avoid",
+        "source": "drawn",
+        "alt": "Drawing of a glossy padlock on a circuit-board shield.",
+        "caption": "Padlocks and shields: decoration that promises security we don’t sell."
+      },
+      {
+        "id": "pins",
+        "role": "avoid",
+        "source": "drawn",
+        "alt": "Drawing of a map covered in red pins with an EXPOSED stamp.",
+        "caption": "Red pins and “exposed”: frightening people into using it."
+      }
+    ],
+    "treatment": {
+      "rules": [
+        {
+          "aspect": "White balance:",
+          "rule": "neutral daylight. Whites look white, not warm or blue."
+        },
+        {
+          "aspect": "Contrast:",
+          "rule": "gentle, with soft highlights and lifted blacks, so nothing clips."
+        },
+        {
+          "aspect": "Saturation:",
+          "rule": "a little below the camera’s, so the brand teal stays the brightest color on the page."
+        },
+        {
+          "aspect": "Shadows:",
+          "rule": "a faint cool tint toward Deep Teal; highlights stay neutral."
+        }
+      ],
+      "never": "No heavy filters, vignettes, fake grain or film borders, and never the teal-and-orange movie grade. The goal is a set that looks like it was shot on one honest day.",
+      "lut": "assets/imagery/exifcleaner-daylight.cube",
+      "howToApply": "Apply exifcleaner-daylight.cube (a 33-point 3D LUT) in Lightroom or Photoshop (Color Lookup), Resolve, Final Cut, Premiere or ffmpeg (lut3d), at 100% on a correctly exposed photograph; lower the opacity if a photo was already muted.",
+      "parameters": {
+        "contrast": 0.16,
+        "blackLift": 0.025,
+        "whiteRoll": 0.965,
+        "sat": 0.8,
+        "satKnee": 0.45,
+        "satKneeAmount": 0.3,
+        "shadowTint": [
+          -0.01,
+          0.006,
+          0.004
+        ],
+        "shadowRange": 0.45
+      }
+    }
+  },
+  "graphicDevice": {
+    "head": "The removed line.",
+    "text": [
+      "The brand’s graphic device is metadata itself: a line of fields and values in Geist Mono, each value struck through in teal. It says what the product does without a picture, and it already appears on the website.",
+      "Use one line or one short block per surface, in Pewter or Fog, with the strike in ExifCleaner Teal or Seafoam. Values are always invented samples."
+    ],
+    "never": "Never real people’s data, never as body text, never more than one block on a surface, and never animated except as a single strike drawn left to right."
+  },
+  "graphicElements": {
+    "head": "A small set of graphic elements, each with one job.",
+    "items": [
+      [
+        "The removed line",
+        "line",
+        "The graphic device: fields and invented values in Geist Mono, values struck through in teal.",
+        "One per surface. Never real data, never as paragraphs."
+      ],
+      [
+        "The two sparkles",
+        "sparkles",
+        "Part of the mark: a pair at fixed sizes, left high and right low.",
+        "Never alone, never scattered, never as an icon for a feature."
+      ],
+      [
+        "The count",
+        "count",
+        "Proof in numbers: “−162 fields” in Geist Mono, teal for what was removed.",
+        "Only real counts from the screen or the release."
+      ],
+      [
+        "The headline",
+        "headline",
+        "Two words, a comma and a period: “Metadata, removed.” “Folders, cleaned.”",
+        "Rarely: once per surface, display type only."
+      ]
+    ],
+    "never": "Not among the graphic elements: padlocks, shields, eyes, fingerprints, hooded figures, binary or glowing code, gradients as decoration, confetti, a repeating broom pattern, and sparkles on their own."
+  },
+  "inTheProduct": {
+    "head": "Where the brand shows inside the app.",
+    "intro": "Product patterns, not graphic elements: they mean something only because of what the app is doing. Exact specifications belong to the app; these values are starting points.",
+    "items": [
+      [
+        "The check",
+        "check",
+        "A teal check after the count: the file is cleaned. Steady Teal on light, Seafoam on dark, so small text holds 4.5:1.",
+        "Teal is for “cleaned” only. Warnings and errors keep the platform’s own colors."
+      ],
+      [
+        "Before and after",
+        "counts",
+        "Counts in Geist Mono or the system monospace; the after count in Steady Teal (Seafoam on dark).",
+        "Never animate the numbers counting down."
+      ],
+      [
+        "Neutral type badges",
+        "badges",
+        "File types in small Rinse badges with Deep Teal text, all alike.",
+        "No color per file type: in the list, color means status."
+      ],
+      [
+        "One teal button",
+        "button",
+        "Steady Teal with white text on light, Seafoam with Deep Teal text on dark; 8 px radius.",
+        "One per view. Secondary actions are plain text links."
+      ]
+    ],
+    "shape": "Shape language: soft rectangles, 8 px radius for buttons and cards, 6 px for badges. The window and its controls are the platform’s own. Surfaces separate by color (Rinse, Tide), not shadow; only screenshots in marketing carry a soft shadow."
+  },
+  "logoOnImages": {
+    "do": [
+      "On screenshots and photos, place the lockup on a calm area: a wall, a sky, the window’s empty space.",
+      "Use the light lockup over light areas and the dark lockup over dark ones; keep the clear space free of detail.",
+      "If no calm area exists, move the logo off the image, onto Clean White or Deep Teal beside it."
+    ],
+    "dont": [
+      "No plates, boxes or blurred panels behind the logo to rescue a busy image.",
+      "Never over a screenshot’s file list or over people’s faces."
+    ]
+  },
+  "useByOthers": [
+    "Press, reviewers and community sites may use the lockup and symbol unaltered, from the files in this folder, at no less than the minimum sizes.",
+    "Write the name as plain text, “ExifCleaner”, in your own type when a logo isn’t needed; never imitate the wordmark.",
+    "Forks and derived apps use their own name and icon, so people can tell the official app apart.",
+    "Don’t use the marks to suggest an endorsement, audit or partnership that doesn’t exist."
+  ],
+  "legal": [
+    "ExifCleaner is not a registered trademark. Use ™ (not ®) only if a legal mark is wanted, once, on the first prominent use in marketing; never inside the app or on the logo itself.",
+    "The app’s code is MIT-licensed. This book asks that the name and logo identify the official project only (see above).",
+    "Credit, where the app bundles it: “ExifCleaner uses ExifTool by Phil Harvey.”",
+    "Fonts: SIL Open Font License 1.1 (see assets/fonts). Name clearance has not been checked (see Open decisions)."
+  ],
+  "contact": [
+    "Questions about the brand and requests to use it: the ExifCleaner maintainers, through the project’s GitHub issues (github.com/szTheory/exifcleaner).",
+    "Approval: changes to the logo, colors, type or sounds need a maintainer’s approval and a new version of this book. Everyday applications that follow these rules need none.",
+    "This book is versioned: touch-ups raise the decimal (2.1), a new identity raises the whole number (3.0). The revision history is below."
+  ],
+  "notNeeded": [
+    {
+      "item": "Mascot",
+      "why": "Considered, not proposed. The broom is an object, not a character; giving it a face would pull a precise tool toward cute."
+    },
+    {
+      "item": "Packaging and signage",
+      "why": "ExifCleaner is a download with no shop, office or box. The DMG window is its packaging, and it is designed (Applications)."
+    },
+    {
+      "item": "Stationery",
+      "why": "A solo, open-source project has no business cards or letterhead. The README and the release notes are its letters."
+    },
+    {
+      "item": "Co-branding",
+      "why": "No partners. Crediting ExifTool is attribution, not co-branding. If a partner comes: their logo to the right, divided by a 1 px Deep Teal rule, at matching cap height."
+    }
+  ],
+  "openDecisions": [
+    {
+      "choice": "Steady Teal for text and buttons.",
+      "detail": "#0F766E holds 5.47:1 with white. ExifCleaner Teal #0D9488 holds only 3.7:1, so it stays on the icon, the symbol and large accents."
+    },
+    {
+      "choice": "Small-size logo.",
+      "detail": "At 24 px and below: a heavier broom with one sparkle. The alternative, the full mark, turns the sparkles into specks."
+    },
+    {
+      "choice": "No wordmark alone.",
+      "detail": "Use the lockup, the symbol or the plain-text name."
+    },
+    {
+      "choice": "A teal check in the app.",
+      "detail": "Instead of the platform green, with neutral type badges, so color in the list means status."
+    },
+    {
+      "choice": "“Metadata” and “fields” to people.",
+      "detail": "“Tags” only in technical detail, and “EXIF” only when it is EXIF."
+    },
+    {
+      "choice": "Sound on by default.",
+      "detail": "Done and Drop, at a modest level, with one switch in Settings to turn them off."
+    },
+    {
+      "choice": "Motion values.",
+      "detail": "A one-second sting: a 6° wind-up, the sweep, a 4° overshoot and one rebound; sparkles 120 ms apart."
+    },
+    {
+      "choice": "No website grid in the book.",
+      "detail": "The current site’s grid and spacing are kept as notes in brand.json; a website build guide is made when the site is rebuilt."
+    },
+    {
+      "choice": "Example photographs.",
+      "detail": "Free-licensed stock, graded with the brand LUT, until commissioned or the project’s own photographs replace them."
+    },
+    {
+      "choice": "Icon shapes.",
+      "detail": "macOS gets Apple’s template with a transparent margin for the .icns file, plus a full-bleed master for newer icon tools."
+    }
+  ],
+  "notChecked": "Trademark clearance (the name is descriptive, and other “EXIF cleaner” tools exist), print color (proof against a physical swatch; no CMYK or Pantone values are given), the sounds on a range of real speakers, how macOS 26 frames the icon, and the Windows icon at 125% and 150% display scaling.",
+  "fonts": {
+    "source": {
+      "repo": "https://github.com/google/fonts",
+      "commit": "b68b528a75da7d9b73f3928899c07a23083a6633"
+    },
+    "files": [
+      {
+        "path": "ofl/instrumentsans/InstrumentSans[wdth,wght].ttf",
+        "sha256": "b24f1812584816958afcf22e22d08e44318c5e51651e25d2438efdde389b33b1",
+        "file": "InstrumentSans[wdth,wght].ttf"
+      },
+      {
+        "path": "ofl/instrumentsans/InstrumentSans-Italic[wdth,wght].ttf",
+        "sha256": "a74203cc5066a3b2f8de1a7b0887ef897773c2319dc86c911f8e85350cde0d07",
+        "file": "InstrumentSans-Italic[wdth,wght].ttf"
+      },
+      {
+        "path": "ofl/instrumentsans/OFL.txt",
+        "sha256": "9e27a72ed30eb49a08678f6a5d6ed98ec7ba5368f541637ee0683ec9134ef966",
+        "file": "OFL-InstrumentSans.txt"
+      },
+      {
+        "path": "ofl/geistmono/GeistMono[wght].ttf",
+        "sha256": "d00e590b8eb3a59acc329b2d044fd143ae935090b7da33199ebee27cc7de8196",
+        "file": "GeistMono[wght].ttf"
+      },
+      {
+        "path": "ofl/geistmono/OFL.txt",
+        "sha256": "1781d2806a07d91c4edf4740b88449fab7d0eadad53f7c351b94cd4d4eb8c00f",
+        "file": "OFL-GeistMono.txt"
+      }
+    ]
+  },
+  "files": [
+    {
+      "need": "Website header, documents and slides on a light ground",
+      "files": [
+        "assets/logo/exifcleaner-lockup-light.svg"
+      ]
+    },
+    {
+      "need": "The same on Deep Teal or another dark ground",
+      "files": [
+        "assets/logo/exifcleaner-lockup-dark.svg"
+      ]
+    },
+    {
+      "need": "One-color printing, engraving, embroidery",
+      "files": [
+        "assets/logo/exifcleaner-lockup-mono-deep-teal.svg",
+        "assets/logo/exifcleaner-lockup-mono-white.svg"
+      ]
+    },
+    {
+      "need": "The symbol alone: avatars, stickers, small spaces",
+      "files": [
+        "assets/logo/exifcleaner-symbol-light.svg",
+        "assets/logo/exifcleaner-symbol-dark.svg",
+        "assets/logo/exifcleaner-symbol-mono-deep-teal.svg"
+      ]
+    },
+    {
+      "need": "24 px and below",
+      "files": [
+        "assets/logo/exifcleaner-symbol-small-light.svg",
+        "assets/logo/exifcleaner-symbol-small-dark.svg"
+      ]
+    },
+    {
+      "need": "macOS app icon (.icns source, Apple’s template margin)",
+      "files": [
+        "assets/icon/exifcleaner-icon-macos-1024.png",
+        "assets/icon/exifcleaner-icon-macos.svg"
+      ]
+    },
+    {
+      "need": "Full-bleed icon master (newer icon tools apply the shape)",
+      "files": [
+        "assets/icon/exifcleaner-icon-full-bleed-1024.png",
+        "assets/icon/exifcleaner-icon-full-bleed.svg"
+      ]
+    },
+    {
+      "need": "Windows and Linux app icon",
+      "files": [
+        "assets/icon/exifcleaner.ico",
+        "assets/icon/exifcleaner-icon-512.png"
+      ]
+    },
+    {
+      "need": "Browser tab and home screen",
+      "files": [
+        "assets/icon/favicon.svg",
+        "assets/icon/favicon-32.png",
+        "assets/icon/favicon-16.png",
+        "assets/icon/apple-touch-icon-180.png"
+      ]
+    },
+    {
+      "need": "GitHub social preview and avatars",
+      "files": [
+        "assets/social/exifcleaner-social-preview-1280x640.png",
+        "assets/social/exifcleaner-avatar-1024.png"
+      ]
+    },
+    {
+      "need": "DMG window: save as background.png and background + “@2x.png”",
+      "files": [
+        "assets/installer/dmg-background.png",
+        "assets/installer/dmg-background-2x.png"
+      ]
+    },
+    {
+      "need": "The graphic device (the removed line)",
+      "files": [
+        "assets/background/exifcleaner-removed-line-light.svg",
+        "assets/background/exifcleaner-removed-line-dark.svg"
+      ]
+    },
+    {
+      "need": "Sounds: raw WAVs for the app; MP3s mastered for speakers, for the web and posts",
+      "files": [
+        "assets/sound/",
+        "assets/sound/listening/"
+      ]
+    },
+    {
+      "need": "The logo animation with its sound, for videos and talks",
+      "files": [
+        "assets/motion/exifcleaner-logo-animation.mp4",
+        "assets/motion/exifcleaner-logo-animation.webm"
+      ]
+    },
+    {
+      "need": "The photo grade (a LUT) and the example photos, with licenses",
+      "files": [
+        "assets/imagery/exifcleaner-daylight.cube",
+        "assets/imagery/README.md"
+      ]
+    },
+    {
+      "need": "Fonts for design apps (install) and the web",
+      "files": [
+        "assets/fonts/variable/",
+        "assets/fonts/static/",
+        "assets/fonts/web/"
+      ]
+    },
+    {
+      "need": "Colors, type and motion values for developers",
+      "files": [
+        "tokens.json"
+      ]
+    },
+    {
+      "need": "The whole brand as data, or as text for an AI assistant",
+      "files": [
+        "brand.json",
+        "BRAND.md"
+      ]
+    },
+    {
+      "need": "This book to print or send, a one-page summary, and a visual guide to every file",
+      "files": [
+        "exifcleaner-brand-book.pdf",
+        "exifcleaner-one-page.pdf",
+        "assets/index.html"
+      ]
+    }
+  ]
+}
